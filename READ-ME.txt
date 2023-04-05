@@ -1,6 +1,6 @@
-  =>  Template Name    : DentCare - Dental Clinic Website Template
+  =>  Template Name    : Dr Aftab Eye Care
 
-  =>  Template Link    : https://htmlcodex.com/dental-clinic-website-template
+  =>  Template Link    : https://htmlcodex.com/Eye-clinic-website-template
 
   =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
 
