@@ -116,6 +116,23 @@
             '<i class="bi bi-arrow-right"></i>'
         ],
     });
-    
+
+    $("#btnAppointment").click(function () {
+        var selectedService = $("#selectedService").find(":selected").text();
+        var userName = $("#userName").val();
+        var userEmail = $("#userEmail").val();
+        var appointmentDate = $("#appointmentDate").val();
+        var appointmentTime = $("#appointmentTime").val();
+        var aptMessage = "Online booking appointment %0a" +
+            "Name - " + userName + "%0a" +
+            "Email - " + userEmail + "%0a" +
+            "Service - " + selectedService + "%0a" +
+            "Date - " + appointmentDate + "%0a" +
+            "Time - " + appointmentTime;
+           
+        var text = "https://wa.me/919758934778?text=" + aptMessage;
+        window.open(text, '_blank');
+        return false;
+    });
 })(jQuery);
 
